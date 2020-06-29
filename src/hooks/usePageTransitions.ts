@@ -10,7 +10,7 @@ interface UsePageTransitionProps {
 const usePageTransitions = (props: UsePageTransitionProps = {}) => {
   const { translateX = "100", config, location } = props;
 
-  const transitions = useTransition(location, location => location.pathname, {
+  const transitions = useTransition(location, (location) => location.pathname, {
     from: {
       opacity: 0.5,
       transform: `translate3d(${translateX}vw, 0, 0)`,

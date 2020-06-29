@@ -24,11 +24,19 @@ const Social: React.FunctionComponent<SocialProps> = ({
         aria-label={`Socials networks ${name} is present on`}
         className={className}
       >
-        <SocialLink type="linkedin" userId={social.linkedin} />
-        <SocialLink type="github" userId={social.github} />
-        <SocialLink type="medium" userId={`@${social.medium}`} />
-        <SocialLink type="twitter" userId={social.twitter} />
-        <SocialLink type="goodreads" userId={social.goodreads} />
+        {social.linkedin && (
+          <SocialLink type="linkedin" userId={social.linkedin} />
+        )}
+        {social.github && <SocialLink type="github" userId={social.github} />}
+        {social.medium && (
+          <SocialLink type="medium" userId={`@${social.medium}`} />
+        )}
+        {social.twitter && (
+          <SocialLink type="twitter" userId={social.twitter} />
+        )}
+        {social.goodreads && (
+          <SocialLink type="goodreads" userId={social.goodreads} />
+        )}
         <SocialLink
           type="email"
           rootProps={{
@@ -42,7 +50,7 @@ const Social: React.FunctionComponent<SocialProps> = ({
 
 const Root = styled.nav`
   display: grid;
-  grid-template-columns: repeat(6, ${rhythm(1.25)});
+  grid-template-columns: repeat(4, ${rhythm(1.25)});
   grid-gap: 10px;
 `;
 

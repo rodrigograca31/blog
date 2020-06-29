@@ -33,9 +33,10 @@ const Home: React.FunctionComponent<HomeProps> = ({
 
   const featuredPosts = allMarkdownRemark.edges
     .filter(
-      p => !latestPosts.find(lp => lp.node.fields.slug === p.node.fields.slug)
+      (p) =>
+        !latestPosts.find((lp) => lp.node.fields.slug === p.node.fields.slug)
     )
-    .filter(p => p.node.frontmatter.featured)
+    .filter((p) => p.node.frontmatter.featured)
     .slice(0, 3);
 
   return (

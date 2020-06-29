@@ -26,7 +26,7 @@ const PostCard: React.FunctionComponent<PostCardProps> = ({
     <Title>
       <Link
         aria-label={`Continue reading: ${title}`}
-        to={`/blog${slug}`}
+        to={`${slug}`}
         state={{ prevPath: location.pathname }}
       >
         {title}

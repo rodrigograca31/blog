@@ -23,31 +23,35 @@ const About: React.FunctionComponent<AboutProps> = ({
 
       <Description>
         <h4>Hey there my friend!</h4>
+        <p>My name is {author.name},</p>
         <p>
-          My name is {author.name}, and I am {yearsSince(author.birthDate)}{" "}
-          years old. I have a passion for products having constructive effects
-          on our lives, and I love to be involved in the development of
-          purposeful applications.
+          I'm a Portuguese Full Stack Web Developer with a huge passion for the
+          Web, a regular open-source contributor to a variety of projects/tools,
+          and sometimes obsess over optimization...
         </p>
-
         <p>
-          I contribute to the product life cycle with my comprehensive skills in
-          web development, my growing knowledge of behavioral sciences and human
-          psychology, and my neverending hunger for growth.
+          In this blog I will talk about 3 main topics:{" "}
+          <ul>
+            <li>
+              <b>P2P investments:</b> I will be sharing my P2P portfolio details
+              like which platforms I invest in, my current settings, size of the
+              portfolio (≃24K€) as well as diversification settings and other
+              things.
+            </li>
+
+            <li>
+              <b>Code: </b>I will share all things coding like tips, shortcuts,
+              plugins, extensions, programs, and more tips!
+            </li>
+            <li>
+              <b>Health: </b>I will share the supplements I take and why I take
+              them as well as new findings I make over time and new supplements
+              I experiment with.
+            </li>
+          </ul>
         </p>
-
         <p>
-          When not building stuff, I love to explore, read fascinating books,
-          learn languages, write about my experiences in life, have amazing
-          dinners and meet interesting people. I am also obsessed with building
-          positive habits. I believe they are the keys to unlock our full
-          potential.
-        </p>
-
-        <p>
-          Do you want to find out more about me? Please shoot me an email at{" "}
-          <strong>{author.social.email}</strong> or reach out to me on social
-          media, listed below.
+          I hope you like it! <br /> Don't forget to have a great day! ❤️🤗
         </p>
       </Description>
     </Root>
