@@ -76,6 +76,14 @@ const Content = styled.article`
       margin-bottom: 0;
     }
   }
+
+  [id]::before {
+    content: "";
+    display: block;
+    height: 55px;
+    margin-top: -55px;
+    visibility: hidden;
+  }
 `;
 
 export default Post;
