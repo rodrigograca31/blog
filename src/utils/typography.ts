@@ -7,6 +7,18 @@ doelger.overrideThemeStyles = () => ({
   },
 });
 
+console.log(doelger);
+doelger.googleFonts = [
+  {
+    name: "Arvo",
+    styles: ["700"],
+  },
+  {
+    name: "Cabin",
+    styles: ["400", "400", "700&display=swap"],
+  },
+];
+
 const typography = new Typography(doelger);
 
 // Hot reload typography in development.
