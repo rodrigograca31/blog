@@ -745,8 +745,8 @@ export type FileFieldsEnum =
   | 'childMarkdownRemark___frontmatter___cover___children'
   | 'childMarkdownRemark___frontmatter___category'
   | 'childMarkdownRemark___frontmatter___tags'
-  | 'childMarkdownRemark___frontmatter___comments'
   | 'childMarkdownRemark___frontmatter___categories'
+  | 'childMarkdownRemark___frontmatter___comments'
   | 'childMarkdownRemark___excerpt'
   | 'childMarkdownRemark___rawMarkdownBody'
   | 'childMarkdownRemark___fileAbsolutePath'
@@ -1603,8 +1603,8 @@ export type MarkdownRemarkFieldsEnum =
   | 'frontmatter___cover___childMarkdownRemark___children'
   | 'frontmatter___category'
   | 'frontmatter___tags'
-  | 'frontmatter___comments'
   | 'frontmatter___categories'
+  | 'frontmatter___comments'
   | 'excerpt'
   | 'rawMarkdownBody'
   | 'fileAbsolutePath'
@@ -1742,8 +1742,8 @@ export type MarkdownRemarkFrontmatter = {
   cover?: Maybe<File>;
   category?: Maybe<Scalars['String']>;
   tags?: Maybe<Array<Maybe<Scalars['String']>>>;
-  comments?: Maybe<Scalars['Boolean']>;
   categories?: Maybe<Array<Maybe<Scalars['String']>>>;
+  comments?: Maybe<Scalars['Boolean']>;
 };
 
 
@@ -1765,8 +1765,8 @@ export type MarkdownRemarkFrontmatterFilterInput = {
   cover?: Maybe<FileFilterInput>;
   category?: Maybe<StringQueryOperatorInput>;
   tags?: Maybe<StringQueryOperatorInput>;
-  comments?: Maybe<BooleanQueryOperatorInput>;
   categories?: Maybe<StringQueryOperatorInput>;
+  comments?: Maybe<BooleanQueryOperatorInput>;
 };
 
 export type MarkdownRemarkGroupConnection = {
@@ -1998,8 +1998,6 @@ export type QueryAllSitePageArgs = {
 export type QuerySiteArgs = {
   buildTime?: Maybe<DateQueryOperatorInput>;
   siteMetadata?: Maybe<SiteSiteMetadataFilterInput>;
-  port?: Maybe<DateQueryOperatorInput>;
-  host?: Maybe<StringQueryOperatorInput>;
   polyfill?: Maybe<BooleanQueryOperatorInput>;
   pathPrefix?: Maybe<StringQueryOperatorInput>;
   id?: Maybe<StringQueryOperatorInput>;
@@ -2112,8 +2110,6 @@ export type Site = Node & {
   __typename?: 'Site';
   buildTime?: Maybe<Scalars['Date']>;
   siteMetadata?: Maybe<SiteSiteMetadata>;
-  port?: Maybe<Scalars['Date']>;
-  host?: Maybe<Scalars['String']>;
   polyfill?: Maybe<Scalars['Boolean']>;
   pathPrefix?: Maybe<Scalars['String']>;
   id: Scalars['ID'];
@@ -2124,14 +2120,6 @@ export type Site = Node & {
 
 
 export type SiteBuildTimeArgs = {
-  formatString?: Maybe<Scalars['String']>;
-  fromNow?: Maybe<Scalars['Boolean']>;
-  difference?: Maybe<Scalars['String']>;
-  locale?: Maybe<Scalars['String']>;
-};
-
-
-export type SitePortArgs = {
   formatString?: Maybe<Scalars['String']>;
   fromNow?: Maybe<Scalars['Boolean']>;
   difference?: Maybe<Scalars['String']>;
@@ -2350,8 +2338,6 @@ export type SiteFieldsEnum =
   | 'siteMetadata___author___social___linkedin'
   | 'siteMetadata___author___social___medium'
   | 'siteMetadata___author___social___twitter'
-  | 'port'
-  | 'host'
   | 'polyfill'
   | 'pathPrefix'
   | 'id'
@@ -2444,8 +2430,6 @@ export type SiteFieldsEnum =
 export type SiteFilterInput = {
   buildTime?: Maybe<DateQueryOperatorInput>;
   siteMetadata?: Maybe<SiteSiteMetadataFilterInput>;
-  port?: Maybe<DateQueryOperatorInput>;
-  host?: Maybe<StringQueryOperatorInput>;
   polyfill?: Maybe<BooleanQueryOperatorInput>;
   pathPrefix?: Maybe<StringQueryOperatorInput>;
   id?: Maybe<StringQueryOperatorInput>;
