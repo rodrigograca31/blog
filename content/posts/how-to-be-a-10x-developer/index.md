@@ -38,6 +38,7 @@ Ok, now that I got your click with that title I got to say that many people say 
 1. [Reps](#reps)
 1. [Share your knowledge](#share-your-knowledge)
 1. [Learn about tangential things](#learn-about-tangential-things)
+1. [Use Grammarly](#use-grammarly)
 1. [Learn new stuff every day](#learn-new-stuff-every-day)
 
 Here is my list of tips/tricks to be a great developer:
@@ -186,6 +187,11 @@ Like I'm doing 😉. Jokes aside, make a blog, or just share with others on Twit
 ### Learn about tangential things
 
 From how graphic drivers work to hardware to how networks work you should know more than just about the programming language you are working. Sometimes the problem might be somewhere else like the network.
+
+### Use Grammarly
+
+As a non-native English speaker Grammarly has been a life-saving utility!
+If you don't know Grammarly is an automated grammar checker.
 
 ### Learn new stuff every day
 

@@ -7,7 +7,6 @@ doelger.overrideThemeStyles = () => ({
   },
 });
 
-console.log(doelger);
 doelger.googleFonts = [
   {
     name: "Arvo",
