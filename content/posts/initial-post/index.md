@@ -3,11 +3,11 @@ title: Welcome to my blog! 🤗
 template: post
 slug: initial-post
 draft: false
-featured: true
+featured: false
 date: "2020-05-01T21:00:00.000Z"
 description: "An introduction to my blog content"
 cover: "do-something-great.jpg"
-category: Code
+category: null
 tags:
   - P2P
   - Code
@@ -30,9 +30,9 @@ I will be sharing my P2P portfolio details like which platforms I invest in, my 
 
 ## Code
 
-I will share all things coding like tips, shortcuts, plugins, extensions, programs, and more tips!
+I will share all things coding like tips, shortcuts, plugins, extensions, programs, tips, and much more!
 
-I will also share some special scripts I have to help me manage my P2P investments. 😉 For example, I got one to invest in a specific loan with 2 clicks on Peerberry and another script to give color to specific loan originators on Mintos Primary Market listing.
+I will also share some special scripts I have to help me manage my P2P investments. 😉 For example, I got one to invest in a specific loan with 2 clicks on Peerberry and another script to color specific loan originators on Mintos Primary Market listing.
 
 All these scripts will be OSS (Open Source Software) so that you guys can verify the code and use them by yourselves.
 
