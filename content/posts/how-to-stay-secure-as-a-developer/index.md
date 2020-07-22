@@ -60,6 +60,9 @@ I use/recommend [LastPass](https://www.lastpass.com/)
 
 Pro TIP: Keep your high-value passwords out of the password manager. Even a password manager might be compromised/hacked, we never know.
 
+Going back to the Twitter hack seems the attacker found clear text credentials on slack... 🤦🏻‍♂️
+This is a great example of why you should use a password manager.
+
 ### Use long passwords
 
 Yes long passwords, because Math!
@@ -96,11 +99,15 @@ Its a huge security hazard. If I sent you a random link and said "execute this c
 
 ### Don't use Windows. 🤮 as simple as that
 
-Windows is another huge security hazard. Its vulnerability after vulnerability. They just had 3 huge patch Tuesdays in a row! 113, 111, 123 vulnerabilities! 😱
+Windows is another huge security hazard. Its vulnerability after vulnerability. They just had 3 huge patch Tuesdays in a row! 113, 111, and 123 vulnerabilities! 😱
 
 ### Frontend code isn't safe.
 
 If you think Webpack or any other bundler makes your code unreadable think again. I still see many junior devs not knowing that their environment variables and all their frontend code can be read as if it was never minified... Have a look at [this awesome script](https://github.com/timmc/unsourcemap)
+
+### Save passwords securely (DB)
+
+Don't use md5, sha1, etc, use bcrypt as of 2020.
 
 ### XSS, SQLi, CSRF, etc
 
