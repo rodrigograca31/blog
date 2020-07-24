@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     copyright: "© All rights reserved.",
-    description: "aaaaabbbbbbccccccc",
+    description:
+      "My personal blog where I share tips and tricks I learn. Code, P2P and Health",
     googleAnalyticsId: "UA-12880017-14",
     pathPrefix: "/",
     siteUrl: "https://blog.rodrigograca.com",
