@@ -109,6 +109,24 @@ If you think Webpack or any other bundler makes your code unreadable think again
 
 Don't use md5, sha1, etc, use bcrypt as of 2020.
 
+### Phishing
+
+Be careful with links in your email or even other places like instant messaging. Don't click or open something if you don't trust it. 1 click is all you need to get hacked in some cases. They could run a 0 day that exploits something on your system with just that 1 click.
+
+### Social engineering
+
+Be aware of social engineering. It's something that many of us don't even think about. Be aware that if someone is actively targeting you, they might do things that you never imagined would be a security concern. Like, strike a conversation to get you to click/open a meme or something else.
+
+### Use VirusTotal.com
+
+[VirusTotal.com](https://www.virustotal.com/) is a website currently owned by Google, where you can upload anything to get it analyzed by 70 different antivirus scanners to detect types of malware/viruses. If a friend/coworker or someone sent you a file of any kind that you don't fully trust, take it, and upload it to the site, if all the antivirus scanners are green you can open it.
+
 ### XSS, SQLi, CSRF, etc
 
-Of course, I couldn't let this one's pass. But you should already know about the common know issues. If you don't, please research them.
+Of course, I couldn't let these pass. But you should already know about the common know issues. If you don't, please research them.
+
+---
+
+Remember that "security is like a chain, as strong as the weakest link" if you have a very secure system and there's 1 single hole bad guys will be able to get in. That's why security is so hard.
+
+> We’re all human; we commit mistakes. But there are a plethora of people who are trying to take advantage of a single silly mistake which can cost your business tremendous financial loss. Advanced technology and security practices, no matter how sophisticated, will always be constrained by this human factor.
