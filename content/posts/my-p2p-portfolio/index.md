@@ -12,7 +12,7 @@ tags:
   - P2P
 ---
 
-In this post, I will share my portfolio size, diversity, average interest per platform, and IRR (Internal Rate of Return) (The real interest) and much more.
+In this post, I will share my portfolio size, diversity, average interest per platform, and IRR (Internal Rate of Return) and much more.
 
 I've been wanting to share my thoughts and lessons learned in the P2P market. If I miss some value you would want to see [tweet at me](https://twitter.com/rodrigograca31) and I will add it.
 
@@ -63,7 +63,8 @@ First things first, everyone wants to know how much someone can get from their i
 - Actual Net Annual Return: **12.82%** (IRR)
 - Average monthly income: **22.53€**
 
-Grupeer has been dealing with issues due to the current pandemic (Covid-19). I currently don't advise you to invest there.
+Grupeer has been dealing with issues due to the current pandemic (Covid-19) according to them. Others say it is a scam.
+I currently don't advise you to invest there.
 
 ## Why do I invest in these platforms?
 

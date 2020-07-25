@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<opml version="1.0">
+  <head>
+    <title>Pocket Casts Feeds</title>
+  </head>
+  <body>
+    <outline text="feeds">
+      <outline type="rss" text="The Walking Dead Podcast - AfterBuzz TV" xmlUrl="https://anchor.fm/s/6dc2124/podcast/rss" />
+      <outline type="rss" text="This Week in Linux" xmlUrl="https://tuxdigital.com/feed/thisweekinlinux-mp3" />
+      <outline type="rss" text="The Joe Rogan Experience" xmlUrl="http://joeroganexp.joerogan.libsynpro.com/rss" />
+      <outline type="rss" text="The Smart Passive Income Online Business and Blogging Podcast" xmlUrl="http://feeds.feedburner.com/spipodcast" />
+      <outline type="rss" text="rodrigograca1993 on Narro" xmlUrl="http://on.narro.co/rodrigograca1993" />
+      <outline type="rss" text="Hands-On Android (Audio)" xmlUrl="https://feeds.twit.tv/hoa.xml" />
+      <outline type="rss" text="The Dream" xmlUrl="https://www.omnycontent.com/d/playlist/aaea4e69-af51-495e-afc9-a9760146922b/5090fbc5-4e0d-4b52-9f28-aa3200e14bba/f75dd646-aa8d-4472-9b9a-aa3200e14bbf/podcast.rss" />
+      <outline type="rss" text="FoundMyFitness" xmlUrl="https://podcast.foundmyfitness.com/rss.xml" />
+      <outline type="rss" text="All About Android (Video)" xmlUrl="http://feeds.twit.tv/aaa_video_hd" />
+      <outline type="rss" text="Base.cs Podcast" xmlUrl="http://feeds.codenewbie.org/basecs_podcast.xml" />
+      <outline type="rss" text="Emoji Wrap — The Emoji Podcast from Emojipedia" xmlUrl="https://feeds.simplecast.com/WOA7OuTm" />
+      <outline type="rss" text="Security Now (Audio)" xmlUrl="http://leoville.tv/podcasts/sn.xml" />
+      <outline type="rss" text="The Polyglot Developer Podcast" xmlUrl="https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/podcast.xml" />
+      <outline type="rss" text="TWiT Events (Audio)" xmlUrl="https://feeds.twit.tv/events.xml" />
+      <outline type="rss" text="The Stack Overflow Podcast" xmlUrl="https://stackoverflow.blog/podcasts/?feed=podcast" />
+      <outline type="rss" text="Triangulation (Audio)" xmlUrl="http://leo.am/podcasts/tri.xml" />
+      <outline type="rss" text="Crypto-Gram Security Podcast" xmlUrl="http://crypto-gram.libsyn.com/rss" />
+      <outline type="rss" text="This Week in Tech (Audio)" xmlUrl="http://leoville.tv/podcasts/twit.xml" />
+      <outline type="rss" text="The Indie Hackers Podcast" xmlUrl="https://feeds.transistor.fm/the-indie-hackers-podcast" />
+      <outline type="rss" text="Monstercat: Call of the Wild" xmlUrl="https://www.monstercat.com/podcast/feed.xml" />
+      <outline type="rss" text="Podcasts from Adobe Experience Cloud" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:147365484/sounds.rss" />
+      <outline type="rss" text="Syntax - Tasty Web Development Treats" xmlUrl="https://feed.syntax.fm/rss" />
+      <outline type="rss" text="The Privacy, Security, &amp; OSINT Show" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:261098918/sounds.rss" />
+      <outline type="rss" text="FLOSS Weekly (Audio)" xmlUrl="http://leoville.tv/podcasts/floss.xml" />
+    </outline>
+  </body>
+</opml>
