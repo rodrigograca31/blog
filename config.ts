@@ -3,7 +3,7 @@ module.exports = {
     copyright: "© All rights reserved.",
     description:
       "My personal blog where I share tips and tricks I learn. Code, P2P and Health",
-    googleAnalyticsId: "UA-12880017-14",
+    googleAnalyticsId: "UA-12880017-4",
     pathPrefix: "/",
     siteUrl: "https://blog.rodrigograca.com",
     title: "Rodrigo Graça",
