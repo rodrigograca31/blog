@@ -30,6 +30,7 @@ module.exports = {
           //     namedBitlys: ["mzl.la"],
           //   },
           // },
+
           {
             resolve: "gatsby-remark-images",
             options: {
@@ -86,6 +87,12 @@ module.exports = {
     },
     "gatsby-plugin-offline",
     "gatsby-plugin-react-helmet",
+    {
+      resolve: "gatsby-plugin-react-helmet-canonical-urls",
+      options: {
+        siteUrl: "https://blog.rodrigograca.com",
+      },
+    },
     {
       resolve: "gatsby-plugin-typography",
       options: {
