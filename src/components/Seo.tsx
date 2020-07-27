@@ -56,7 +56,7 @@ const SEO: React.FunctionComponent<SEOProps> = ({
       meta={[
         {
           name: "google-site-verification",
-          content: "OZ82-xGcAi-7G55v3p4iJa-qlkwTTG1ExzUrYXxdsT0",
+          content: "mVNUXrYuzd-hosJCL5eUTxK4affcqqWFna6UTYDzoo4",
         },
         { property: "og:title", content: title },
         { name: "twitter:title", content: title },
