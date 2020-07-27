@@ -39,6 +39,7 @@ Ok, now that I got your click with that title I got to say that many people say 
 1. [Share your knowledge](#share-your-knowledge)
 1. [Learn about tangential things](#learn-about-tangential-things)
 1. [Use Grammarly](#use-grammarly)
+1. [Get a rubber duck](#get-a-rubber-duck-🦆)
 1. [Learn new stuff every day](#learn-new-stuff-every-day)
 
 Here is my list of tips/tricks to be a great developer:
@@ -192,6 +193,12 @@ From how graphic drivers work to hardware to how networks work you should know m
 
 As a non-native English speaker Grammarly has been a life-saving utility!
 If you don't know Grammarly is an automated grammar checker.
+
+### Get a rubber duck 🦆
+
+In case you don't know there's a method called [Rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging) that consists of you explaining your code line-by-line to the duck when you are stuck trying to solve a problem. (Any other inanimate objects or pets such as a dog or a cat works too! 🐈)
+
+> Insights are often found by simply describing the problem aloud.
 
 ### Learn new stuff every day
 

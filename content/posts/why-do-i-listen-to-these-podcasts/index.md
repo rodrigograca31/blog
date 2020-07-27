@@ -370,11 +370,11 @@ He also enjoys and shares some wisdom in the health field.
 
 **Link:** [https://pca.st/](https://pca.st/) -->
 
-### The Walking Dead - AfterBuzzz TV
+### The Walking Dead - AfterBuzz TV
 
 **Type:** Audio
 
-**Why I listen:** Sometimes after watching an episode of The Walking Dead I if didn't get something or just would like to hear someones opinion on what happened or will happen I listen to this podcast that discusses every episode a few hours after has aired
+**Why I listen:** Sometimes after watching an episode of The Walking Dead I if didn't get something or just would like to hear someones opinion on what happened or will happen I listen to this podcast that discusses every episode a few hours after has aired. The AfterBuzz TV network has multiple shows dedicated to every series, so if you want to hear a discussion about your favorite series, search for it!
 
 **Duration:** 30 Minutes to 1 Hour
 
