@@ -10,7 +10,7 @@ const Newsletter = () => {
 
   // type....
   const [subscribing, setSubscribing] = React.useState<
-    "" | "subscribing" | "subscribed" | "error"
+    "" | "subscribing" | "success" | "error"
   >("");
 
   // 1. via `.then`
@@ -37,17 +37,7 @@ const Newsletter = () => {
         console.log(data);
         console.log(data.result);
         console.log(data.msg);
-        switch (data.result) {
-          case "success":
-            setSubscribing("subscribed");
-            break;
-          case "error":
-            setSubscribing("error");
-            break;
-          default:
-            setSubscribing("error");
-            break;
-        }
+        setSubscribing(data.result);
       })
       .catch(() => {
         // unnecessary because Mailchimp only ever
@@ -98,10 +88,8 @@ const Newsletter = () => {
         <div
           className={`loader ${subscribing === "subscribing" ? "" : "hidden"}`}
         ></div>
-        <p
-          className={`thankyou ${subscribing === "subscribed" ? "" : "hidden"}`}
-        >
-          You have subscribed. Thank you! 🙇🏻‍♂️
+        <p className={`thankyou ${subscribing === "success" ? "" : "hidden"}`}>
+          Success! <br /> Check your email to confirm. Thank you! 🙇🏻‍♂️
         </p>
         <p className={`email-error ${subscribing === "error" ? "" : "hidden"}`}>
           There was an error subscribing. 😢
