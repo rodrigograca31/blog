@@ -76,12 +76,7 @@ const Newsletter = () => {
         </header>
         <div className="newsletter-form-body">
           <div id="email-ui">
-            <label
-              className="newsletter-form-field-label title"
-              htmlFor="email"
-            >
-              Email Address
-            </label>
+            <label htmlFor="email">Email Address</label>
             <input
               id="email"
               name="email"

@@ -85,7 +85,8 @@ module.exports = {
         icon: `content/assets/${siteConfig.siteMetadata.author.assets.icon}`,
       },
     },
-    "gatsby-plugin-offline",
+    // "gatsby-plugin-offline",
+    "gatsby-plugin-remove-serviceworker",
     "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-plugin-react-helmet-canonical-urls",
