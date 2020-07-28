@@ -84,7 +84,6 @@ const Newsletter = () => {
             </label>
             <input
               id="email"
-              className="newsletter-form-field-element"
               name="email"
               type="email"
               spellCheck="false"
