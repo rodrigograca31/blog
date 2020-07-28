@@ -66,7 +66,7 @@ const Newsletter = () => {
     <div className="newsletter-wrapper">
       <form autoComplete="on" method="POST" onSubmit={_handleSubmit}>
         <header>
-          <h2>Subscribe</h2>
+          <h5 style={{ fontSize: "1.51572rem" }}>Subscribe</h5>
           <p>
             Enjoyed this article?
             <br />

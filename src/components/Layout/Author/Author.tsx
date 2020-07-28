@@ -23,16 +23,16 @@ const Author = (): React.ReactElement => {
   return (
     <Root>
       <StyledImage fixed={avatarFixedImage} alt={author.name} />
-      <h5>
+      <p>
         A personal blog by{" "}
-        <a href={`https://www.linkedin.com/in/${author.social.linkedin}`}>
+        <a href={`https://www.linkedin.com/in/${author.social.twitter}`}>
           {author.name}
         </a>{" "}
         about coding, p2p, health, and much more (Psst... I am{" "}
         <em>
           <Link to="/resume">open to opportunities</Link>.)
         </em>
-      </h5>
+      </p>
     </Root>
   );
 };
@@ -44,9 +44,20 @@ const Root = styled.section`
   align-items: center;
   margin-bottom: ${rhythm(1)};
 
-  h5 {
+  /* h5 {
     margin: 0;
     line-height: 1.5;
+  } */
+  p {
+    color: black;
+    font-family: "Arvo", sans-serif;
+    font-weight: 700;
+
+    font-size: 0.87055rem;
+    margin: 0;
+    line-height: 1.5;
+
+    letter-spacing: 0.02em;
   }
 `;
 
