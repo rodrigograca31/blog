@@ -6,6 +6,8 @@ import Author from "../Layout/Author";
 
 import { rhythm, scale } from "../../utils/typography";
 
+import Newsletter from "../Layout/Newsletter/Newsletter";
+
 interface PostProps {
   post: MarkdownRemark;
 }
@@ -21,6 +23,7 @@ const Post: React.FunctionComponent<PostProps> = ({
     <Content dangerouslySetInnerHTML={{ __html: post.html }} />
     <div className="separator" />
     <Author />
+    <Newsletter />
   </Root>
 );
 

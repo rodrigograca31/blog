@@ -1,0 +1,112 @@
+$theme-color: #ff483b;
+
+.newsletter-wrapper {
+  background-color: $theme-color;
+
+  text-align: center;
+  padding: 10px;
+  margin: 20px 0;
+
+  header {
+    h2 {
+      margin: 20px 0;
+    }
+  }
+  .newsletter-form-body {
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+    // justify-content: space-evenly;
+    @media (max-width: 480px) {
+      flex-direction: column;
+    }
+    #email-ui {
+      min-width: 250px;
+      label {
+        display: none;
+      }
+      input {
+        -webkit-font-smoothing: antialiased;
+        color: inherit;
+        font: inherit;
+        margin: 0;
+        width: 100%;
+        padding: 1em;
+        background: #fff;
+        font-family: inherit;
+        font-size: 15px;
+        line-height: normal;
+        outline: none;
+        border: 1px solid rgba(0, 0, 0, 0.12);
+      }
+      margin-right: 10px;
+      @media (max-width: 480px) {
+        margin: 10px 0;
+      }
+    }
+    #submit-wrapper {
+      button {
+        -webkit-font-smoothing: antialiased;
+        font: inherit;
+        margin: 0;
+        overflow: visible;
+        position: relative;
+        font-family: inherit;
+        font-size: 15px;
+        line-height: normal;
+        font-weight: normal;
+        text-transform: uppercase;
+        white-space: nowrap;
+        display: inline-block;
+        width: auto;
+        height: auto;
+        padding: 1em 2.5em;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        appearance: none;
+        transition: 0.1s background-color linear, 0.1s color linear;
+        border-radius: 0;
+        border: 1px solid #272727 !important;
+        background: transparent;
+        box-shadow: inset 0px 0px 0px 1px #272727;
+        color: #272727;
+      }
+    }
+  }
+  .spam {
+    margin: 20px;
+    font-style: normal;
+    letter-spacing: 0.02em;
+    font-size: 12px !important;
+  }
+
+  // https://www.w3schools.com/howto/howto_css_loader.asp
+  .loader {
+    display: inline-block;
+    border: 3px solid #f3f3f3; /* Light grey */
+    border-top: 3px solid $theme-color; /* Blue */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+  }
+  .loader,
+  .thankyou,
+  .email-error {
+    margin-top: 30px;
+  }
+  .hidden {
+    display: none !important;
+    margin: 20px;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
