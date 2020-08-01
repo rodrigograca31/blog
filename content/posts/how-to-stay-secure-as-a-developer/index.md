@@ -100,6 +100,11 @@ Its a huge security hazard. If I sent you a random link and said "execute this c
 ### Don't use Windows. 🤮 as simple as that
 
 Windows is another huge security hazard. Its vulnerability after vulnerability. They just had 3 huge patch Tuesdays in a row! 113, 111, and 123 vulnerabilities! 😱
+If you care about security I would recommend you use a Linux distribution.
+
+### Stay updated
+
+Updates are important! They usually fix vulnerabilities. Update your OS, your programs, and update your brain on new security flaws. Here is a list of the [podcasts I listen to stay updated on security issues.](https://blog.rodrigograca.com/why-do-i-listen-to-these-podcasts/)
 
 ### Frontend code isn't safe.
 
