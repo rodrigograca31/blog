@@ -10,6 +10,7 @@ Your site is now running at [http://localhost:8000](http://localhost:8000)!
 
 ```shell
    gatsby build
+   rsync_blog
 ```
 
 ---
