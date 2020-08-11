@@ -1,0 +1,41 @@
+$theme-color: #ff483b;
+
+.share-hr {
+  margin: 0;
+}
+.share-buttons {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  line-height: 0;
+  li {
+    display: inline-block;
+    margin: 0;
+    span {
+      font-size: 20px;
+      font-weight: bold;
+      margin-right: 5px;
+    }
+    a {
+      color: inherit;
+      text-decoration: none;
+      box-shadow: none;
+      opacity: 0.7;
+      width: 50px;
+      height: 50px;
+      display: inline-block;
+      color: $theme-color;
+      svg {
+        width: 100%;
+        height: 100%;
+      }
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}

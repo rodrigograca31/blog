@@ -2,11 +2,20 @@ import React from "react";
 import styled from "styled-components";
 import { MarkdownRemark } from "graphql-types";
 
+import {
+  FaFacebookSquare,
+  FaHackerNewsSquare,
+  FaTwitterSquare,
+} from "react-icons/fa";
 import Author from "../Layout/Author";
 
 import { rhythm, scale } from "../../utils/typography";
 
 import Newsletter from "../Layout/Newsletter/Newsletter";
+
+import { useSiteMetadata } from "../../hooks";
+
+import "./style.scss";
 
 interface PostProps {
   post: MarkdownRemark;
@@ -14,18 +23,59 @@ interface PostProps {
 
 const Post: React.FunctionComponent<PostProps> = ({
   post,
-}): React.ReactElement => (
-  <Root>
-    <Title>{post.frontmatter.title}</Title>
-    <Info>
-      {post.frontmatter.date} · {post.timeToRead} min read
-    </Info>
-    <Content dangerouslySetInnerHTML={{ __html: post.html }} />
-    <div className="separator" />
-    <Author />
-    <Newsletter />
-  </Root>
-);
+}): React.ReactElement => {
+  const { siteUrl } = useSiteMetadata();
+
+  const share = (e, name: string, size: string): void => {
+    window.open(e.target.href, name, size);
+    e.preventDefault();
+  };
+
+  return (
+    <Root>
+      <Title>{post.frontmatter.title}</Title>
+      <Info>
+        {post.frontmatter.date} · {post.timeToRead} min read
+      </Info>
+      <Content dangerouslySetInnerHTML={{ __html: post.html }} />
+
+      <hr className="share-hr" />
+      <ul className="share-buttons">
+        <li>
+          <span>Share:</span>
+        </li>
+        <li>
+          <a
+            href={`https://twitter.com/share?text=${post.frontmatter.title} @YOUR_USERNAME&url=${siteUrl}/${post.frontmatter.slug}`}
+            onClick={(e) => share(e, "twitter-share", "width=550,height=235")}
+          >
+            <FaTwitterSquare />
+          </a>
+        </li>
+        <li>
+          <a
+            href={`https://news.ycombinator.com/submitlink?t=${post.frontmatter.title}&u=${siteUrl}/${post.frontmatter.slug}`}
+            onClick={(e) => share(e, "hn-share", "width=550,height=350")}
+          >
+            <FaHackerNewsSquare />
+          </a>
+        </li>
+        <li>
+          <a
+            href={`https://www.facebook.com/sharer/sharer.php?u=${siteUrl}/${post.frontmatter.slug}`}
+            onClick={(e) => share(e, "facebook-share", "width=580,height=296")}
+          >
+            <FaFacebookSquare />
+          </a>
+        </li>
+      </ul>
+      <hr />
+
+      <Newsletter />
+      <Author />
+    </Root>
+  );
+};
 
 const Root = styled.section`
   margin: auto;
