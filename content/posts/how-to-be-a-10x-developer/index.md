@@ -129,7 +129,7 @@ Let me highlight some of my favorites:
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 - [Re-run Last Command](https://marketplace.visualstudio.com/items?itemName=Cameron.rerun-last-command)
 
-(I will make a separate post detailing all the ones I use.)
+I've written a blog post detailing [all the extensions I use and why.](https://blog.rodrigograca.com/the-visual-studio-code-extensions-i-use-full-stack-developer-why/)
 
 ### Keep up with the industry
 
@@ -153,7 +153,7 @@ If you are using your hands just ask your voice assistant for what you need. For
 
 You can't be a good developer if you make insecure software. [Safety is number one priority](https://www.youtube.com/watch?v=nIbZX0b608s) 😂. You have to know at least the basics of how an attacker could attack your code: user input validation, rate limiting, password hashing, defaults, not trustable/needed dependencies, don't use Windows, XSS, SQLI, etc.
 
-(I will make a separate post about this.)
+I've written an entire blog post on [how to stay secure as a developer.](https://blog.rodrigograca.com/how-to-stay-secure-as-a-developer/)
 
 ### Stay healthy 🏃🏻💪🏻
 
@@ -163,7 +163,7 @@ You can't be a good developer if you make insecure software. [Safety is number o
 - Supplement with Omega 3 for the 🧠 and Vitamin D3 for "everything else"
 - Do intermittent fasting
 
-(Once again, I will write a blog post just about this topic, stay tuned!)
+(I will write a blog post just about this topic, stay tuned!)
 
 ### Learn/Use Linux
 
