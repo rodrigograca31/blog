@@ -4,8 +4,6 @@ import "./style.scss";
 import addToMailchimp from "gatsby-plugin-mailchimp";
 
 const Newsletter = () => {
-  console.log(typeof window !== "undefined" && window.location.pathname);
-
   const [email, setEmail] = React.useState("");
 
   // type....
@@ -16,7 +14,6 @@ const Newsletter = () => {
   // 1. via `.then`
   const _handleSubmit = (e) => {
     e.preventDefault();
-    console.log("submit");
     setEmail("");
 
     setSubscribing("subscribing");
@@ -34,9 +31,7 @@ const Newsletter = () => {
       .then((data) => {
         // I recommend setting data to React state
         // but you can do whatever you want (including ignoring this `then()` altogether)
-        console.log(data);
-        console.log(data.result);
-        console.log(data.msg);
+
         setSubscribing(data.result);
       })
       .catch(() => {
