@@ -1,13 +1,12 @@
 import React from "react";
 import { graphql } from "gatsby";
-import { animated } from "react-spring";
 import { GatsbyLocation } from "local-types";
 import { MarkdownRemark } from "graphql-types";
 
 import Layout from "../components/Layout";
 import SEO from "../components/Seo";
 import Post from "../components/Post";
-import { useSiteMetadata, usePageTransitions } from "../hooks";
+import { useSiteMetadata } from "../hooks";
 
 interface BlogPostTemplateProps {
   location: GatsbyLocation;
@@ -22,8 +21,6 @@ const BlogPostTemplate: React.FunctionComponent<BlogPostTemplateProps> = ({
 }): React.ReactElement => {
   const { frontmatter, ...post } = data.markdownRemark;
   const { title: siteTitle, siteUrl } = useSiteMetadata();
-
-  const transitions = usePageTransitions({ location });
 
   return (
     <Layout
@@ -51,11 +48,7 @@ const BlogPostTemplate: React.FunctionComponent<BlogPostTemplateProps> = ({
           })),
         ]}
       />
-      {transitions.map(({ props, key }) => (
-        <animated.div key={key} style={props}>
-          <Post post={{ frontmatter, ...post }} />
-        </animated.div>
-      ))}
+      <Post post={{ frontmatter, ...post }} />
     </Layout>
   );
 };

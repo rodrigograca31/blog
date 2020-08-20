@@ -41,7 +41,7 @@ const Header: React.FunctionComponent<HeaderProps> = ({
           </Link>
         </Title>
         <StyledNav>
-          <StyledLink rel="author" to="/about">
+          <StyledLink rel="author" to="/about/">
             about
           </StyledLink>
           <StyledLink to="/blog/">blog</StyledLink>

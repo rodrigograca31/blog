@@ -18,13 +18,6 @@ const Newsletter = () => {
 
     setSubscribing("subscribing");
 
-    // setTimeout(() => {
-    //   setSubscribing("subscribed");
-    // }, 1000);
-    // setTimeout(() => {
-    //   setSubscribing("error");
-    // }, 2000);
-
     addToMailchimp(email, {
       URL: window.location.pathname,
     }) // listFields are optional if you are only capturing the email address.
