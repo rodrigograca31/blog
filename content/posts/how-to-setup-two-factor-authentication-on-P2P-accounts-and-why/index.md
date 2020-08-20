@@ -6,7 +6,7 @@ draft: true
 featured: false
 date: "2020-08-02T00:15:00.000Z"
 description: "???"
-cover: second-factor-authentication-p2p.jpg"
+cover: "second-factor-authentication-p2p.jpg"
 category: P2P
 tags:
   - P2P

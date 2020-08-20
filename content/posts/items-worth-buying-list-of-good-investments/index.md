@@ -5,7 +5,7 @@ slug: items-worth-buying-list-of-good-investments
 draft: false
 featured: false
 date: "2020-08-17T22:00:00.000Z"
-description: "A list of things I bought and are totally worth buying!"
+description: "A list of things I bought and were good investments!"
 cover: "good-investment.jpg"
 category: null
 tags:
