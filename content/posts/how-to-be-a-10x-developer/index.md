@@ -41,6 +41,7 @@ Ok, now that I got your click with that title I got to say that many people say 
 1. [Use Grammarly](#use-grammarly)
 1. [Get a rubber duck](#get-a-rubber-duck-🦆)
 1. [Learn new stuff every day](#learn-new-stuff-every-day)
+1. [Make life easier on you](#make-life-easier-on-you)
 
 Here is my list of tips/tricks to be a great developer:
 
@@ -129,7 +130,7 @@ Let me highlight some of my favorites:
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 - [Re-run Last Command](https://marketplace.visualstudio.com/items?itemName=Cameron.rerun-last-command)
 
-I've written a blog post detailing [all the extensions I use and why.](https://blog.rodrigograca.com/the-visual-studio-code-extensions-i-use-full-stack-developer-why/)
+I've written a blog post detailing [all the VS Code extensions I use and why.](https://blog.rodrigograca.com/the-visual-studio-code-extensions-i-use-full-stack-developer-why/)
 
 ### Keep up with the industry
 
@@ -165,6 +166,8 @@ I've written an entire blog post on [how to stay secure as a developer.](https:/
 
 (I will write a blog post just about this topic, stay tuned!)
 
+<!-- ??? -->
+
 ### Learn/Use Linux
 
 Learn how to use the command line because sooner or later you will have to debug something on a server if you want to grow as a developer. If you intend to do any DevOps you will need to know Linux. I use Linux Mint 19.3 (soon to be 20)
@@ -196,9 +199,13 @@ If you don't know Grammarly is an automated grammar checker.
 
 ### Get a rubber duck 🦆
 
-In case you don't know there's a method called [Rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging) that consists of you explaining your code line-by-line to the duck when you are stuck trying to solve a problem. (Any other inanimate objects or pets such as a dog or a cat works too! 🐈)
+In case you don't know there's a method called [Rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging) that consists of you explaining your code line-by-line to the duck when you are stuck trying to solve a problem. (Any other inanimate objects or pets such as a dog or a cat works too! 🐈😹)
 
 > Insights are often found by simply describing the problem aloud.
+
+### Make life easier on you
+
+Use a dark theme, lots of contrast, big fonts, use tabs as 4 spaces (to see indentation way faster!), and other small changes that will make your life easier.
 
 ### Learn new stuff every day
 
