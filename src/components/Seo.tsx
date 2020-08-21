@@ -3,6 +3,8 @@ import Helmet from "react-helmet";
 
 import { useSiteMetadata, useAvatar } from "../hooks";
 
+import getSchemaOrgJSONLD from "./JSONLD";
+
 interface OGMetaTag {
   property: string;
   content: string;
@@ -22,6 +24,8 @@ interface SEOProps {
   imageAlt?: string;
   type?: string;
   url?: string;
+  date?: string;
+  isBlogPost?: boolean;
 }
 
 const SEO: React.FunctionComponent<SEOProps> = ({
@@ -33,6 +37,8 @@ const SEO: React.FunctionComponent<SEOProps> = ({
   imageAlt,
   type = "website",
   url,
+  date,
+  isBlogPost = false,
 }): React.ReactElement => {
   const {
     title: defaultTitle = "",
@@ -45,6 +51,16 @@ const SEO: React.FunctionComponent<SEOProps> = ({
   const metaDescription = description || defaultDescription;
   const metaImageUrl = `${siteUrl}${image || avatar.childImageSharp.fixed.src}`;
   const metaImageAlt = imageAlt || `Cover photo of ${author.name}`;
+
+  const schemaOrgJSONLD = getSchemaOrgJSONLD({
+    url: siteUrl,
+    title,
+    image,
+    description,
+    datePublished: date,
+    author,
+    avatar,
+  });
 
   return (
     <Helmet
@@ -92,7 +108,16 @@ const SEO: React.FunctionComponent<SEOProps> = ({
             ]
           : []),
       ].concat(meta)}
-    />
+    >
+      {/* Schema.org tags */}
+      {isBlogPost ? (
+        <script type="application/ld+json">
+          {JSON.stringify(schemaOrgJSONLD)}
+        </script>
+      ) : (
+        ""
+      )}
+    </Helmet>
   );
 };
 

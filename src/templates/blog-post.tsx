@@ -47,6 +47,8 @@ const BlogPostTemplate: React.FunctionComponent<BlogPostTemplateProps> = ({
             content: t,
           })),
         ]}
+        date={frontmatter.date}
+        isBlogPost={true}
       />
       <Post post={{ frontmatter, ...post }} />
     </Layout>
