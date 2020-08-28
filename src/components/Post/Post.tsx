@@ -111,6 +111,7 @@ const Info = styled.p`
 `;
 
 const Content = styled.article`
+  content-visibility: auto;
   .md-figure-caption,
   .gatsby-resp-image-figcaption {
     text-align: center;
