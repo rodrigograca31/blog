@@ -31,7 +31,7 @@ Those are:
 - [PeerBerry:](https://peerberry.com/ref/GZZQ89/) 7,996.24€
 - [Mintos:](https://www.mintos.com/en/l/ref/114BY3) 5,786.09€
 - [Viventor:](https://www.viventor.com/?ref=FM6324) 1,504.15€
-- [Grupeer:](https://www.grupeer.com/) 8,707.31€
+- ~~[Grupeer:](https://www.grupeer.com/) 8,707.31€~~
 
 ## My current returns:
 
@@ -63,7 +63,7 @@ First things first, everyone wants to know how much someone can get from their i
 - Actual Net Annual Return: **12.82%** (IRR)
 - Average monthly income: **22.53€**
 
-Grupeer has been dealing with issues due to the current pandemic (Covid-19) according to them. Others say it is a scam.
+**Note:** Grupeer has been dealing with issues due to the current pandemic (Covid-19) according to them. Others say it is a scam.
 I currently don't advise you to invest there.
 
 ## Why do I invest in these platforms?
@@ -91,9 +91,9 @@ I currently don't advise you to invest there.
 
 ### [Grupeer:](https://www.grupeer.com/)
 
-- Ease of use
-- For diversification
-- Good returns
+- ~~Ease of use~~
+- ~~For diversification~~
+- ~~Good returns~~
 
 ## Which P2P platform do I prefer?
 
