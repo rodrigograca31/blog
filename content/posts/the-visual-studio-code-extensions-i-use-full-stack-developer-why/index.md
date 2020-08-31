@@ -53,6 +53,7 @@ They will be ordered by their importance/usage. You should probably install the 
 1. [vscode-icons](#vscode-icons)
 1. [vscode-pigments](#vscode-pigments)
 1. [vscode-styled-components](#vscode-styled-components)
+1. [Auto Hide](#auto-hide)
 
 ### Prettier - Code formatter
 
@@ -394,6 +395,16 @@ They will be ordered by their importance/usage. You should probably install the 
 **Description:** XML Language Support by Red Hat
 
 **VS Marketplace Link**: https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml
+
+### Auto Hide
+
+**Why:** I hate that the left panel (sidebar) doesn't auto-close. CTRL + B does the trick but doesn't work if you have the terminal focused, and also doesn't get rid of the terminal. By using this extension as soon as I click on my code it virtually goes firescreen. All panels disappear.
+
+**Install:** `ext install sirmspencer.vscode-autohide`
+
+**Description:** A tool to autohide the sidebar and terminal panel.
+
+**VS Marketplace Link**: https://marketplace.visualstudio.com/items?itemName=sirmspencer.vscode-autohide
 
 #### Conclusion:
 
