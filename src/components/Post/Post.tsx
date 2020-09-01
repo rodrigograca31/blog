@@ -27,7 +27,7 @@ const Post: React.FunctionComponent<PostProps> = ({
   const { siteUrl } = useSiteMetadata();
 
   const share = (e, name: string, size: string): void => {
-    window.open(e.target.href, name, size);
+    window.open(e.currentTarget.href, name, size);
     e.preventDefault();
   };
 
