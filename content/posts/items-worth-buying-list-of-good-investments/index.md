@@ -76,7 +76,7 @@ If you work all day on a computer you should buy a powerful computer. It will sa
 
 ## Furniture!
 
-<!-- ??? IKEA? -->
+<!-- ??? IKEA affiliate link? -->
 
 Even [IKEA](https://www.ikea.com/) furniture! I'm not joking! Think about it: if you buy a table and 2 drawers, and a chair, you can use it to eat, store things, work, etc etc. 2 years ago I bought 2 tabletops, 3 drawers, etc, it cost me about 300€ and it will probably last me my life. It helps me a lot to have my things organized in the drawers and use the table to work every day.
 

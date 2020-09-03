@@ -42,7 +42,7 @@ After you monitor your email in dumps/leaks you should also monitor your name an
 
 ### Enable 2FA in all your accounts.
 
-(Second Factor Authentication)
+(2FA = Second Factor Authentication)
 
 You should enable 2FA everywhere! GitHub, Email, Slack, etc
 
@@ -130,8 +130,9 @@ Be aware of social engineering. It's something that many of us don't even think 
 
 Of course, I couldn't let these pass. But you should already know about the common know issues. If you don't, please research them.
 
----
 
-Remember that "security is like a chain, as strong as the weakest link" if you have a very secure system and there's 1 single hole bad guys will be able to get in. That's why security is so hard.
+#### Conclusion:
+
+Remember: security is like a chain, as strong as the weakest link. If you have a very secure system and there's 1 single hole bad guys will be able to get in. That's why security is so hard.
 
 > We’re all human; we commit mistakes. But there are a plethora of people who are trying to take advantage of a single silly mistake which can cost your business tremendous financial loss. Advanced technology and security practices, no matter how sophisticated, will always be constrained by this human factor.

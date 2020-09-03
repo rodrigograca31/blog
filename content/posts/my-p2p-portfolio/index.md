@@ -37,7 +37,7 @@ Those are:
 
 First things first, everyone wants to know how much someone can get from their investments in terms of returns, so here are mine per platform, based on 1 year of investments.
 
-### [PeerBerry: ](https://peerberry.com/ref/GZZQ89/)
+### [PeerBerry](https://peerberry.com/ref/GZZQ89/)
 
 - Reported Net Annual Return: **12.95%**
 - Actual Net Annual Return: **10.99%** (IRR)
@@ -68,14 +68,14 @@ I currently don't advise you to invest there.
 
 ## Why do I invest in these platforms?
 
-### [PeerBerry:](https://peerberry.com/ref/GZZQ89/)
+### [PeerBerry](https://peerberry.com/ref/GZZQ89/)
 
 - Ease of use
 - Super-fast withdrawals!
 - Auto Invest
 - Good returns
 
-### [Mintos:](https://www.mintos.com/en/l/ref/114BY3)
+### [Mintos](https://www.mintos.com/en/l/ref/114BY3)
 
 - Well known
 - Biggest platform in the EU
@@ -84,12 +84,12 @@ I currently don't advise you to invest there.
 - Lots of public data about each LO
 - For diversification
 
-### [Viventor:](https://www.viventor.com/?ref=FM6324)
+### [Viventor](https://www.viventor.com/?ref=FM6324)
 
 - Ease of use
 - For diversification
 
-### [Grupeer:](https://www.grupeer.com/)
+### [Grupeer](https://www.grupeer.com/)
 
 - ~~Ease of use~~
 - ~~For diversification~~
