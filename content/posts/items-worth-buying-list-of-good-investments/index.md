@@ -25,6 +25,7 @@ It might seem like a random list but each item deserves to be included because i
 1.  [Rechargeable batteries (AAA, AA)](#rechargeable-batteries-aaa-aa)
 1.  [Phone case](#phone-case)
 1.  [Good computer](#good-computer)
+1.  [SSD](#ssd)
 1.  [Furniture](#furniture)
 1.  [Land](#land)
 1.  [Good cables](#good-cables)
@@ -71,6 +72,14 @@ Have you ever dropped a phone? You probably did! And you probably found out how 
 If you work all day on a computer you should buy a powerful computer. It will save you countless hours of waiting. And as we know, time is money.
 
 (I will be writing a post about my computer and setup)
+
+<!-- ??? -->
+
+## SSD
+
+In the same vein as a good computer, if you still have an HDD you are in for a treat! The performance difference is so big that you will think you got a new computer! No joke!
+
+I've upgraded several of my computers to the [SAMSUNG 860 EVO](https://www.gearbest.com/other-laptop-accessories/pp_3006000655912927.html?wid=2000001&lkid=79739003) and my main production machine has a [SAMSUNG  970 EVO NVMe M.2](https://www.gearbest.com/other-laptop-accessories/pp_3007453807470740.html?wid=2000001&lkid=79739003) which is even faster! 🏃🏻‍♂️
 
 <!-- ??? -->
 
