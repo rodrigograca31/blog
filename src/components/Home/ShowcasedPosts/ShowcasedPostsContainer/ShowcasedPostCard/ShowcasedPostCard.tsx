@@ -70,7 +70,7 @@ const Title = styled.h4`
   color: ${({ theme }) => theme.colors.accent};
 
   @media ${device.tablet} {
-    height: ${rhythm(2)};
+    height: ${rhythm(2.5)};
     margin: ${rhythm(1.25)} 0 ${rhythm(0.1)};
   }
 `;
