@@ -40,6 +40,8 @@ I recommend that you add all your email addresses. (Yes the site is run by a tru
 
 After you monitor your email in dumps/leaks you should also monitor your name and email around the web. Imagine some hacker is targeting you and he asks for help on a public forum, or your email is exposed somehow, or they are just trying to target your name with SEO optimized articles so that when someone searches for you it will return bad results trashing your name.
 
+This is why you should use [Google Alerts](https://www.google.com/alerts) to monitor your name and email. It will send you an email every time it finds something on the web with your name/email. Track your entire name or first + last otherwise there are many "Joes".
+
 ### Enable 2FA in all your accounts.
 
 (2FA = Second Factor Authentication)
@@ -129,7 +131,6 @@ Be aware of social engineering. It's something that many of us don't even think 
 ### XSS, SQLi, CSRF, etc
 
 Of course, I couldn't let these pass. But you should already know about the common know issues. If you don't, please research them.
-
 
 #### Conclusion:
 
