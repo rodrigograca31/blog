@@ -1,7 +1,7 @@
 ---
 title: "Linux: How to play videos on your webcam?"
 template: post
-slug: how-to-play-videos-on-webcam
+slug: play-videos-in-webcam
 draft: false
 featured: false
 date: "2020-09-09T18:00:00.000Z"

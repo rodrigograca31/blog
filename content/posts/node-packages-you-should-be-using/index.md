@@ -1,7 +1,7 @@
 ---
 title: "8 node packages you should be using on your system!"
 template: post
-slug: node-packages-you-should-be-using-on-your-system
+slug: node-packages-you-should-be-using
 draft: false
 featured: false
 date: "2020-09-13T18:00:00.000Z"
