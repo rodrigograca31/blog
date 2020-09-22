@@ -1,16 +1,27 @@
 ## Getting started
 
 ```shell
-    gatsby develop
+gatsby develop
 ```
 
 Your site is now running at [http://localhost:8000](http://localhost:8000)!
 
-## Building
+## Building:
 
 ```shell
-   gatsby build
-   rsync_blog
+gatsby build
+```
+
+## Serving:
+
+```shell
+gatsby serve
+```
+
+## Deploying:
+
+```shell
+rsync_blog
 ```
 
 ---
