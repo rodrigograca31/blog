@@ -38,7 +38,7 @@ const BlogPostTemplate: React.FunctionComponent<BlogPostTemplateProps> = ({
         }
         imageAlt={`Cover photo for ${frontmatter.title}`}
         type="article"
-        url={`${siteUrl}/${frontmatter.slug}`}
+        url={`${siteUrl}${post.fields.slug}`}
         meta={[
           { property: "article:published_time", content: frontmatter.date },
           { property: "article:section", content: frontmatter.category },
@@ -63,6 +63,9 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
@@ -73,7 +76,7 @@ export const pageQuery = graphql`
             }
           }
         }
-        slug
+        # slug
         description
         category
         tags

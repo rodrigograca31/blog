@@ -47,20 +47,17 @@ const Blog: React.FunctionComponent<BlogProps> = ({
     <Root>
       <Author />
       {posts.map(
-        ({ node }): React.ReactElement => {
-          const title = node.frontmatter.title || node.fields.slug;
-          return (
-            <PostCard
-              key={node.fields.slug}
-              title={title}
-              slug={node.fields.slug}
-              description={node.frontmatter.description || node.excerpt}
-              date={node.frontmatter.date}
-              timeToRead={node.timeToRead}
-              location={location}
-            />
-          );
-        }
+        ({ node }): React.ReactElement => (
+          <PostCard
+            key={node.fields.slug}
+            title={node.frontmatter.title}
+            slug={node.fields.slug}
+            description={node.frontmatter.description || node.excerpt}
+            date={node.frontmatter.date}
+            timeToRead={node.timeToRead}
+            location={location}
+          />
+        )
       )}
     </Root>
   );

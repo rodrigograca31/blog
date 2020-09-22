@@ -47,7 +47,7 @@ const Post: React.FunctionComponent<PostProps> = ({
         </li>
         <li>
           <a
-            href={`https://www.facebook.com/sharer/sharer.php?u=${siteUrl}/${post.frontmatter.slug}/`}
+            href={`https://www.facebook.com/sharer/sharer.php?u=${siteUrl}${post.fields.slug}`}
             onClick={(e) => share(e, "facebook-share", "width=580,height=296")}
           >
             <FaFacebookSquare />
@@ -55,7 +55,7 @@ const Post: React.FunctionComponent<PostProps> = ({
         </li>
         <li>
           <a
-            href={`https://twitter.com/share?text=${post.frontmatter.title} @rodrigograca31&url=${siteUrl}/${post.frontmatter.slug}/`}
+            href={`https://twitter.com/share?text=${post.frontmatter.title} @rodrigograca31&url=${siteUrl}${post.fields.slug}`}
             onClick={(e) => share(e, "twitter-share", "width=550,height=235")}
           >
             <FaTwitterSquare />
@@ -63,7 +63,7 @@ const Post: React.FunctionComponent<PostProps> = ({
         </li>
         <li>
           <a
-            href={`http://www.reddit.com/submit?title=${post.frontmatter.title}&url=${siteUrl}/${post.frontmatter.slug}/`}
+            href={`http://www.reddit.com/submit?title=${post.frontmatter.title}&url=${siteUrl}${post.fields.slug}`}
             onClick={(e) => share(e, "reddit-share", "width=950,height=660")}
           >
             <FaRedditSquare />
@@ -71,7 +71,7 @@ const Post: React.FunctionComponent<PostProps> = ({
         </li>
         <li>
           <a
-            href={`https://news.ycombinator.com/submitlink?t=${post.frontmatter.title}&u=${siteUrl}/${post.frontmatter.slug}/`}
+            href={`https://news.ycombinator.com/submitlink?t=${post.frontmatter.title}&u=${siteUrl}${post.fields.slug}`}
             onClick={(e) => share(e, "hn-share", "width=550,height=350")}
           >
             <FaHackerNewsSquare />
