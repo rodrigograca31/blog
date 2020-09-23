@@ -53,7 +53,7 @@ const SEO: React.FunctionComponent<SEOProps> = ({
   const metaImageAlt = imageAlt || `Cover photo of ${author.name}`;
 
   const schemaOrgJSONLD = getSchemaOrgJSONLD({
-    url: siteUrl,
+    url,
     title,
     image,
     description,
