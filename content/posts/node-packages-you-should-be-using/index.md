@@ -1,5 +1,5 @@
 ---
-title: "8 node packages you should be using on your system!"
+title: "9 node packages you should be using on your system!"
 template: post
 slug: node-packages-you-should-be-using
 draft: false
@@ -80,6 +80,30 @@ Let's say you have your local project running on localhost:5000, you can port fo
 Now you have a public URL that you can share with anyone to test your project and as soon as you are done you stop the process and it's gone.
 
 P.S. Theres also `npm install -g http-server` but that one only makes a simple local server for the folder you are in, for that I would recommend that you use Python that is already installed on your system `python3 -m http.server 8000`.
+
+## nodemon
+
+`npm install -g nodemon`
+
+nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+
+Did you know that you can use it with other languages? Like: TypeScript and Python!? 🤯
+
+Yes, you can use `nodemon` to execute your python scripts every time the file changes!
+
+Examples:
+
+`nodemon file.js`
+
+`nodemon file.ts`
+
+`nodemon --quiet file.js`
+
+`nodemon --exec python3 file.py`
+
+I recommend you always add `--quiet` to avoid extra debug messages.
+
+By default it will use `node` for `.js` files, `ts-node` for `.ts` and `python` for `.py`. (I had to specify `--exec python3` because my system doesn't have `python` correctly mapped)
 
 ## `npm ci` instead of `npm i`
 
