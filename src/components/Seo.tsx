@@ -68,7 +68,8 @@ const SEO: React.FunctionComponent<SEOProps> = ({
         lang,
       }}
       title={defaultTitle}
-      titleTemplate={`${title} | %s`}
+      titleTemplate={title}
+      // titleTemplate={`${title} | %s`}
       meta={[
         {
           name: "google-site-verification",
