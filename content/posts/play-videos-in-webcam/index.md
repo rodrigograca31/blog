@@ -36,6 +36,6 @@ After running the first 5 commands and [installing the OBS obs-v4l2sink plugin](
 
 ![OBS - v4l2sink](obs-V4L2.png)
 
-Your browser, zoom, or other programs that is reading the dummy webcam will start displaying whatever are being captured in OBS.
+Your browser, zoom, or other programs that is read the dummy webcam will start displaying whatever is being captured in OBS.
 
 [Let me know on Twitter](https://twitter.com/rodrigograca31) what you use this for, I'm curious.
