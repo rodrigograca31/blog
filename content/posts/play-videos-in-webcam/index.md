@@ -1,5 +1,5 @@
 ---
-title: "Linux: How to play videos on your webcam?"
+title: "Linux: How to play videos on your webcam? (virtual camera)"
 template: post
 slug: play-videos-in-webcam
 draft: false
