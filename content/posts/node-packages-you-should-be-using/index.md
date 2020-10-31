@@ -127,6 +127,14 @@ Yes, Tetris! Just try it!
 
 ---
 
+**Pro tip:** run `ncu -g` to list which global packages you have outdated, then run the entire `npm install` command it gives you to update them.
+
+Alternatively, run `npm list -g --depth=0` to list all global packages installed and `npm outdated -g --depth=0` to list the outdated ones, and then `npm update -g` to update them.
+
+The reason I don't recommend the "native" `npm` command is that it doesn't jump major versions and in my case it crashed halfway and left half of my global packages not installed, which was a nightmare to fix. That's why I recommend you list all your packages first and then update them, in case something goes wrong you have the list and can install them back one by one.
+
+---
+
 Do you know other useful packages that I should be using? [Tweet them at me](https://twitter.com/rodrigograca31)!
 
 Don't forget to [follow me on Github](https://github.com/rodrigograca31)!
