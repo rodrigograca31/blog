@@ -9,8 +9,6 @@ description: "This is a list of my favorite services or products that I use ever
 cover: "services.jpg"
 category: Code
 tags:
-  - Ionic
-  - Angular
 ---
 
 All these services are great and free because I'm a cheap ass 😂
