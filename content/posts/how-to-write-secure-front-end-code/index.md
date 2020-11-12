@@ -53,9 +53,11 @@ Ever! Filter everything on the front-end and backend! Yes, both! I know it's a p
 
 ### Use "noopener" on link tags
 
-Why? Because when the browser opens a new tab from a link in your page it gives it access to your `window` object. That makes it so that the new tab (potential malicious site) can manipulate things in your current tab (your site) like `window.location`.
+Why? Because when the browser opens a new tab from a link in your page with `target="_blank"` it gives it access to your `window` object. That makes it so that the new tab (potential malicious site) can manipulate things in your current tab (your site) like `window.location`.
 
 [More about why you should use noopener here](https://dev.to/dhilipkmr/why-should-you-use-noopener-beware-of-security-flaws-3i57)
+
+As of Nov 6, 2020 the HTML standard changed and [Chrome has implemented such change in order to mitigate this issue](https://bugs.chromium.org/p/chromium/issues/detail?id=898942#c28)
 
 ### Don't keep any secrets
 
