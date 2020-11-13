@@ -29,27 +29,25 @@ const About: React.FunctionComponent<AboutProps> = ({
           Web, a regular open-source contributor to a variety of projects/tools,
           and sometimes obsess over optimization...
         </p>
-        <p>
-          In this blog I will talk about 3 main topics:{" "}
-          <ul>
-            <li>
-              <b>P2P investments:</b> I will be sharing my P2P portfolio details
-              like which platforms I invest in, my current settings, size of the
-              portfolio (≃24K€) as well as diversification settings and other
-              things.
-            </li>
+        <p>In this blog I will talk about 3 main topics: </p>
+        <ul>
+          <li>
+            <b>P2P investments:</b> I will be sharing my P2P portfolio details
+            like which platforms I invest in, my current settings, size of the
+            portfolio (≃24K€) as well as diversification settings and other
+            things.
+          </li>
 
-            <li>
-              <b>Code: </b>I will share all things coding like tips, shortcuts,
-              plugins, extensions, programs, and more tips!
-            </li>
-            <li>
-              <b>Health: </b>I will share the supplements I take and why I take
-              them as well as new findings I make over time and new supplements
-              I experiment with.
-            </li>
-          </ul>
-        </p>
+          <li>
+            <b>Code: </b>I will share all things coding like tips, shortcuts,
+            plugins, extensions, programs, and more tips!
+          </li>
+          <li>
+            <b>Health: </b>I will share the supplements I take and why I take
+            them as well as new findings I make over time and new supplements I
+            experiment with.
+          </li>
+        </ul>
         <p>
           I hope you like it! <br /> Don't forget to have a great day! ❤️🤗
         </p>

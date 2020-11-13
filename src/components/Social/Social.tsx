@@ -40,7 +40,7 @@ const Social: React.FunctionComponent<SocialProps> = ({
         <SocialLink
           type="email"
           rootProps={{
-            href: `mailto:${social.email}?subject=Hey ${firstname}%21`,
+            href: `mailto:${social.email}?subject=Hey%20${firstname}%21`,
           }}
         />
       </Root>
