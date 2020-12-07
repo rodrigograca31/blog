@@ -38,6 +38,10 @@ fi
 node --version # or whatever ....
 ```
 
+Copy the script above to a shell script file like `latest-node.sh` and do `chmod +x latest-node.sh` and then run it `./latest-node.sh`
+
+Or `wget https://gist.githubusercontent.com/rodrigograca31/01e6848c6ec02758690a94c4e272832f/raw/8ecaee43a89f972063914bf7b3e5002b8d348a62/latest-node.sh`
+
 Then add the following line to your `.bashrc` file:
 
 ```bash
@@ -74,3 +78,5 @@ If you take a look at NodeJS [10.x](https://nodejs.org/dist/v10.23.0/), [12.x](h
 That's why when you run `apt install` you get 10.x
 
 With that said, if you are thinking of using `n` or `nvm` to switch your NodeJS version and get a higher one know that I tried that myself and it was compiling for about 2 hours on the Raspberry PI 0 before I decided to force it to stop.
+
+P.S. This is an unofficial way to install the latest version of NodeJS (meaning they no longer have unit tests validated) and I cannot grantee everything will work flawless but for my use case everything is working. (Twitch API connection and motor hat control)
