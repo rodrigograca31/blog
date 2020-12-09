@@ -80,3 +80,5 @@ That's why when you run `apt install` you get 10.x
 With that said, if you are thinking of using `n` or `nvm` to switch your NodeJS version and get a higher one know that I tried that myself and it was compiling for about 2 hours on the Raspberry PI 0 before I decided to force it to stop.
 
 P.S. This is an unofficial way to install the latest version of NodeJS (meaning they no longer have unit tests validated) and I cannot grantee everything will work flawless but for my use case everything is working. (Twitch API connection and motor hat control)
+
+[Let me know on Twitter](https://twitter.com/rodrigograca31) if you have any questions/comments.

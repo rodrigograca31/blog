@@ -83,3 +83,5 @@ In `projects 👉🏻 app 👉🏻 architect 👉🏻 build 👉🏻 options �
 ### Extra 3:
 
 If you previously deployed a ReactJS app you will notice that the Ionic/Angular one takes a bit longer. Don't worry. It's normal. That's because it has to install Ionic and Cordova plugins before it can actually build your code.
+
+That's it. [Let me know on Twitter](https://twitter.com/rodrigograca31) if you have any questions/comments.
