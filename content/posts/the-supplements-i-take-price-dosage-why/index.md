@@ -31,11 +31,9 @@ Besides I also eat plenty of fish and tuna fish.
 
 ## [Vitamin D3](https://www.iherb.com/pr/Source-Naturals-Vitamin-D-3-5-000-IU-240-Capsules/22870?rcode=ROD6032)
 
-<!-- ??? amazon ref link? -->
-
 - 5.000 IU per pill
 - 1 pill per day
-- [360 pills for 11,81€](https://www.iherb.com/pr/Source-Naturals-Vitamin-D-3-5-000-IU-240-Capsules/22870?rcode=ROD6032) or [on amazon](https://www.amazon.es/dp/B002LC1INI/)
+- [360 pills for 11,81€](https://www.iherb.com/pr/Source-Naturals-Vitamin-D-3-5-000-IU-240-Capsules/22870?rcode=ROD6032) or [on amazon](https://www.amazon.com/dp/B002LC1INI/?&_encoding=UTF8&tag=rg3102-20&linkCode=ur2&linkId=35725cea0fe72aeddac59932669cf9c9&camp=1789&creative=9325)
 - (11,81€ / 360) \* 1 ≃ 0,03€/day
 - 0,03€/day \* 30 = 0,90€/month
 - Recommended: [The RDA is 600 IU but everyone knowledgeable takes about 5K](https://ods.od.nih.gov/factsheets/VitaminD-Consumer/)

@@ -49,7 +49,7 @@ And I'm even writing this very same article in VS Code! In markdown files!
 
 [Linux Mint](https://linuxmint.com/) is my OS (Operating System) of choice. Why? Free and Open.
 
-I'm a developer and as a developer, I like control and the ability to thinker with what I'm using if it doesn't fit me I can make adjustments.
+I'm a developer and as a developer, I like control and the ability to tinker with what I'm using if it doesn't fit me I can make adjustments.
 
 With that said, on one hand, M\$ (Microsoft) and Apple are too close and don't let me personalize enough or even contribute back to the OS if there's a bug and on the other hand we have the Linux distributions.
 

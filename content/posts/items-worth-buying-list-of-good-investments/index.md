@@ -16,19 +16,20 @@ Here it is my list of things I bought and made their money back or saved me lots
 
 It might seem like a random list but each item deserves to be included because it pays for itself and more:
 
-1.  [Webcam - Logitech C920](#webcam---logitech-c920)
-1.  [Robot Vacuum - Roborock S5 Max](#robot-vacuum---roborock-s5-max)
-1.  [Bluetooth Headphones - Bluedio T5S](#bluetooth-headphones---bluedio-t5s)
-1.  [Keyboard - Motospeed GK89](#keyboard---motospeed-gk89)
-1.  [Mouse (wireless and with extra buttons)](#mouse-wireless-and-with-extra-buttons)
-1.  [Weights](#weights)
-1.  [Rechargeable batteries (AAA, AA)](#rechargeable-batteries-aaa-aa)
-1.  [Phone case](#phone-case)
-1.  [Good computer](#good-computer)
-1.  [SSD](#ssd)
-1.  [Furniture](#furniture)
-1.  [Land](#land)
-1.  [Good cables](#good-cables)
+1. [Webcam - Logitech C920](#webcam---logitech-c920)
+2. [Robot Vacuum - Roborock S5 Max](#robot-vacuum---roborock-s5-max)
+3. [Bluetooth Headphones - Bluedio T5S](#bluetooth-headphones---bluedio-t5s)
+4. [Keyboard - Motospeed GK89](#keyboard---motospeed-gk89)
+5. [Mouse (wireless and with extra buttons)](#mouse-wireless-and-with-extra-buttons)
+6. [Rechargeable batteries (AAA, AA)](#rechargeable-batteries-aaa-aa)
+7. [Weights 🏋🏻‍♂️](#weights-️)
+8. [Phone case](#phone-case)
+9. [Good computer](#good-computer)
+10. [SSD](#ssd)
+11. [Furniture!](#furniture)
+12. [Land](#land)
+13. [Good cables](#good-cables)
+   1. [Conclusion:](#conclusion)
 
 ## [Webcam - Logitech C920](https://www.gearbest.com/webcams/pp_3003219570150236.html?wid=2000001&lkid=79737884)
 
@@ -52,12 +53,12 @@ The main thing you should look for is a keyboard that will hold up over time. Bo
 
 On the other hand, (pun intended 😂), you have your mouse. Find one that has at least 2 extra buttons, most of them have back and forward buttons. This allows you to navigate between pages or folders much faster, saving you time, paying itself over time. [Here are a few options](https://www.gearbest.com/mice-keyboards-c_11261/?lkid=79738082) and once again bonus points of you get a wireless mouse because you will have an easier time using it.
 
-## [Rechargeable batteries (AAA, AA)](https://www.amazon.com/AmazonBasics-Rechargeable-Batteries-8-Pack-Pre-charged/dp/B00CWNMXQW/)
+## [Rechargeable batteries (AAA, AA)](https://www.amazon.com/AmazonBasics-Rechargeable-Batteries-8-Pack-Pre-charged/dp/B00CWNMXQW/?&_encoding=UTF8&tag=rg3102-20&linkCode=ur2&linkId=0347b328c89164525847bd65a47ed06a&camp=1789&creative=9325)
 
-[These are life-saving!](https://www.amazon.com/AmazonBasics-Rechargeable-Batteries-8-Pack-Pre-charged/dp/B00CWNMXQW/) They are a great complimentary item for the wireless mouse. That means you will have to buy a mouse that uses AAA batteries. That way when they are dead you just swap them and done.
+[These are life-saving!](https://www.amazon.com/AmazonBasics-Rechargeable-Batteries-8-Pack-Pre-charged/dp/B00CWNMXQW/?&_encoding=UTF8&tag=rg3102-20&linkCode=ur2&linkId=0347b328c89164525847bd65a47ed06a&camp=1789&creative=9325) They are a great complimentary item for the wireless mouse. That means you will have to buy a mouse that uses AAA batteries. That way when they are dead you just swap them and done.
 But my main point is that if you have a few rechargeable batteries around you will never run out of them again. Because wherever they die you swap them and recharge the previous ones, then you can swap again. No need to buy them ever again!
 
-I recommend you buy the [AmazonBasics AAA Rechargeable Batteries - Pack of 8](https://www.amazon.com/AmazonBasics-Rechargeable-Batteries-8-Pack-Pre-charged/dp/B00CWNMXQW/) or [AmazonBasics AA High-Capacity - Pack of 8](amazon.com/AmazonBasics-High-Capacity-Rechargeable-Batteries-Pre-charged/dp/B00HZV9WTM/) if you need AAs and lastly the [AmazonBasics AAA & AA Charger With USB Port](https://www.amazon.com/AmazonBasics-Battery-Charger-Rechargeable-Batteries/dp/B00TOVTZ7K/) if you don't have one yet.
+I recommend you buy the [AmazonBasics AAA Rechargeable Batteries - Pack of 8](https://www.amazon.com/AmazonBasics-Rechargeable-Batteries-8-Pack-Pre-charged/dp/B00CWNMXQW/?&_encoding=UTF8&tag=rg3102-20&linkCode=ur2&linkId=0347b328c89164525847bd65a47ed06a&camp=1789&creative=9325) or [AmazonBasics AA High-Capacity - Pack of 8](https://www.amazon.com/AmazonBasics-High-Capacity-Rechargeable-Batteries-Pre-charged/dp/B00HZV9WTM/?&_encoding=UTF8&tag=rg3102-20&linkCode=ur2&linkId=b6a682aaa908c037c700ff5176f160f3&camp=1789&creative=9325) if you need AAs and lastly the [AmazonBasics AAA & AA Charger With USB Port](https://www.amazon.com/AmazonBasics-Battery-Charger-Rechargeable-Batteries/dp/B00TOVTZ7K/?&_encoding=UTF8&tag=rg3102-20&linkCode=ur2&linkId=240d542ef95b194ff29cfc30fa769d7a&camp=1789&creative=9325) if you don't have one yet.
 
 ## Weights 🏋🏻‍♂️
 
@@ -79,7 +80,7 @@ If you work all day on a computer you should buy a powerful computer. It will sa
 
 In the same vein as a good computer, if you still have an HDD you are in for a treat! The performance difference is so big that you will think you got a new computer! No joke!
 
-I've upgraded several of my computers to the [SAMSUNG 860 EVO](https://www.gearbest.com/other-laptop-accessories/pp_3006000655912927.html?wid=2000001&lkid=79739003) and my main production machine has a [SAMSUNG  970 EVO NVMe M.2](https://www.gearbest.com/other-laptop-accessories/pp_3007453807470740.html?wid=2000001&lkid=79739003) which is even faster! 🏃🏻‍♂️
+I've upgraded several of my computers to the [SAMSUNG 860 EVO](https://www.gearbest.com/other-laptop-accessories/pp_3006000655912927.html?wid=2000001&lkid=79739003) and my main production machine has a [SAMSUNG 970 EVO NVMe M.2](https://www.gearbest.com/other-laptop-accessories/pp_3007453807470740.html?wid=2000001&lkid=79739003) which is even faster! 🏃🏻‍♂️
 
 <!-- ??? -->
 
